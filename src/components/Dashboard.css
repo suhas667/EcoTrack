@@ -1,0 +1,125 @@
+/* Dashboard.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 750px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.location-name {
+  font-size: 1.2rem;
+  color: #1f8a70;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.intro-message {
+  background-color: #eef7f2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.air-quality-info {
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.pollutant-levels p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #888;
+}
+
+strong {
+  color: #1f8a70;
+}
+
+/* Additional Styling */
+h1, p {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #2c3e50;
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+.pollutant-levels p {
+  font-weight: 500;
+}
+
+.dashboard-card .header {
+  margin-bottom: 25px;
+}
+
+.intro-message p {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-card {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .intro-message p {
+    font-size: 1rem;
+  }
+
+  .pollutant-levels p {
+    font-size: 0.9rem;
+  }
+}
+

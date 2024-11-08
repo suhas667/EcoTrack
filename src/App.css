@@ -1,38 +1,66 @@
-.App {
+/* src/App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* HomePage Styles */
+.home-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard h1 {
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dashboard p {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* About Styles */
+.about {
+  padding: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about h1 {
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* NotFound Styles */
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: red;
 }

@@ -1,13 +1,49 @@
-body {
+/* src/index.css */
+
+/* Resetting default browser styles */
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Arial', sans-serif; /* Default font for better consistency */
+  background-color: #f4f4f4; /* Soft background color */
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body takes up full height */
 }
+
+.App {
+  text-align: center;
+  min-height: 100vh; /* Ensures the App takes full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+h1 {
+  color: #333; /* Dark color for heading */
+  font-size: 2rem; /* Set a responsive font size */
+}
+
+p {
+  color: #555; /* Slightly lighter color for paragraph */
+  font-size: 1.2rem; /* Slightly larger font for readability */
+}
+
+/* Optional: Add some global link styling */
+a {
+  text-decoration: none;
+  color: inherit; /* Prevent links from being blue by default */
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px; /* For rounded buttons */
+}
+

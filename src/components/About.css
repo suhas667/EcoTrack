@@ -1,0 +1,36 @@
+/* About.css */
+
+.about-section {
+    background-color: #e8f4f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 30px;
+    color: #1f8a70;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-top: 20px;
+  }
+  
+  .about-section h3 {
+    font-size: 24px;
+    color: #1f8a70;
+    margin-top: 30px;
+  }
+  
+  .about-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-section li {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
