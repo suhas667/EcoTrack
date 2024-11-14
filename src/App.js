@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Changed to HashRouter
 // Import  component
 import Home from './components/Home';
 import About from './components/About';
@@ -14,15 +14,15 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router> {/* Changed BrowserRouter to HashRouter */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> {/* Fix: contact path */}
-        <Route path="/services" element={<Services />} /> {/* Fix: services path */}
-        <Route path="/blog" element={<Blog />} /> {/* Fix: blog path */}
-        <Route path="/dashboard" element={<Dashboard />} /> {/* Add the Dashboard route */}
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} /> {/* 404 page for undefined routes */}
       </Routes>
       <Footer />
@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App;
+
