@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//suhas667.github.io/EcoTrack/static/css/main.d09397b7.css",
+    "main.js": "/https//suhas667.github.io/EcoTrack/static/js/main.c3c810e8.js",
+    "index.html": "/https//suhas667.github.io/EcoTrack/index.html",
+    "main.d09397b7.css.map": "/https//suhas667.github.io/EcoTrack/static/css/main.d09397b7.css.map",
+    "main.c3c810e8.js.map": "/https//suhas667.github.io/EcoTrack/static/js/main.c3c810e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d09397b7.css",
+    "static/js/main.c3c810e8.js"
+  ]
+}
