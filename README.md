@@ -1,43 +1,44 @@
-Project Title:
+# Note: This project is still under development.
+# Project Title:
 EchoTrack Blog: A web app to track and display environmental statistics.
 
-Description:
+# Description:
 This web application fetches and displays real-time environmental statistics using the OpenWeatherMap API.
 It features a dashboard showing air quality(present option).
 temperature, and other environmental data for a specific city, like Bangalore, through latitude and longitude (will be integrated soon).
 
-Technologies Used:
+# Technologies Used:
 1. React for frontend
 2. HTML for structure
 3. CSS for styling
 4. OpenWeatherMap API for fetching weather and air quality data
 5. JavaScript for functionality and integration
 
-Prerequisites:
+# Prerequisites:
 Node.js (version 14 or higher)
 npm (Node Package Manager) comes with Node.js
 VS Code or any code editor of your choice
 OpenWeatherMap API Key (Sign up on the OpenWeatherMap website to get your API key)
 
-Setting Up the Project:
+# Setting Up the Project:
 Clone the repository to your local machine.
 Open the project folder in VS Code.
 Install dependencies by running npm install in the terminal.
 Obtain an API key from OpenWeatherMap and update it in the project.
 
-How to Run the Project Locally:
+# How to Run the Project Locally:
 After setting up, run the application using the command npm start.
 Open the browser and navigate to http://localhost:3000 to view the app.
 
 
-Current Status:
+# Current Status:
 This project is still under development. While the core features are in place, I am working on adding more data sources, improving the UI, and ensuring a smooth user experience.
 
 
-Deploying the Project:
+# Deploying the Project:
 Once the project is running locally, you can deploy it to a platform such as GitHub Pages, Netlify, or Vercel for live access.
 
-Troubleshooting:
+# Troubleshooting:
 Ensure the OpenWeatherMap API key is correctly configured in the JavaScript files.
 If dependencies are missing, run npm install again to ensure all packages are installed.
 If the API data isn't showing, check for any errors in the browser’s developer console.
