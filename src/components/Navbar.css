@@ -4,12 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #2c3e50; /* Dark Blue Background */
+  background-color: #2c3e50; 
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better effect */
   position: sticky;
   top: 0; /* Makes the navbar stick at the top */
-  z-index: 1000; /* Ensures it stays on top of other content */
+  z-index: 1000; 
 }
 
 .navbar-logo {
@@ -27,7 +27,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   font-family: 'Arial', sans-serif;
-  letter-spacing: 1px; /* Adds a bit of spacing to the letters */
+  letter-spacing: 1px; 
 }
 
 .navbar-links {
@@ -37,7 +37,7 @@
 }
 
 .navbar-links li {
-  margin: 0 20px; /* Increased spacing between links */
+  margin: 0 20px;
 }
 
 .navbar-links li a {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Import  component
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -8,7 +9,7 @@ import Blog from './components/Blog';
 import NotFound from './components/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Dashboard from './components/Dashboard'; // Import Dashboard component
+import Dashboard from './components/Dashboard'; 
 import './App.css';
 
 function App() {

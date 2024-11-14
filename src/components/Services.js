@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';  // Importing the CSS for Services page
+import './Services.css';  // Importing the CSS file
 
 import { FaLeaf, FaRecycle, FaSolarPanel } from 'react-icons/fa';
 

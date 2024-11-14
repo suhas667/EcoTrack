@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './Dashboard.css';  // Import the CSS file
+import './Dashboard.css';  // Importing the CSS file
 
 function Dashboard() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = "808cf74948200d0565e0932fbd1c039f";  // Your OpenWeatherMap API key
-  const latitude = "12.9716";  // Replace with your latitude (Bangalore)
-  const longitude = "77.5946";  // Replace with your longitude (Bangalore)
+  const apiKey = "808cf74948200d0565e0932fbd1c039f";  //  OpenWeatherMap API key
+  const latitude = "12.9716";  // Replace with  latitude (Bangalore)
+  const longitude = "77.5946";  // Replace with  longitude (Bangalore)
 
   useEffect(() => {
     const fetchData = async () => {

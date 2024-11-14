@@ -1,4 +1,3 @@
-/* src/index.css */
 
 /* Resetting default browser styles */
 *,
@@ -10,16 +9,16 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif; /* Default font for better consistency */
+  font-family: 'Arial', sans-serif; /* Default font */
   background-color: #f4f4f4; /* Soft background color */
   margin: 0;
   padding: 0;
-  height: 100%; /* Ensure body takes up full height */
+  height: 100%; /*  body takes up full height */
 }
 
 .App {
   text-align: center;
-  min-height: 100vh; /* Ensures the App takes full screen height */
+  min-height: 100vh; /*  the App takes full screen height */
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centers content vertically */
@@ -28,15 +27,15 @@ body {
 
 h1 {
   color: #333; /* Dark color for heading */
-  font-size: 2rem; /* Set a responsive font size */
+  font-size: 2rem; /*  responsive font size */
 }
 
 p {
-  color: #555; /* Slightly lighter color for paragraph */
-  font-size: 1.2rem; /* Slightly larger font for readability */
+  color: #555; /*  lighter color for paragraph */
+  font-size: 1.2rem; /*  larger font for readability */
 }
 
-/* Optional: Add some global link styling */
+/* link styling */
 a {
   text-decoration: none;
   color: inherit; /* Prevent links from being blue by default */
@@ -44,6 +43,6 @@ a {
 
 button {
   cursor: pointer;
-  border-radius: 5px; /* For rounded buttons */
+  border-radius: 5px;
 }
 
